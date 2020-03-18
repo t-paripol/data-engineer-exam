@@ -120,8 +120,8 @@ def run(argv=None):
              known_args.output,
              # Here we use the simplest way of defining a schema:
              # fieldName:fieldType
-             schema='state:STRING,gender:STRING,year:STRING,name:STRING,'
-             'number:STRING,created_date:STRING',
+             #try to complete type 
+             schema='',
              # Creates the table in BigQuery if it does not yet exist.
              create_disposition=beam.io.BigQueryDisposition.CREATE_IF_NEEDED,
              # Deletes all data in the BigQuery table before writing.

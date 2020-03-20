@@ -121,7 +121,7 @@ def run(argv=None):
              # Here we use the simplest way of defining a schema:
              # fieldName:fieldType
              #try to complete type 
-             schema='',
+             schema='Please try to complete schema',
              # Creates the table in BigQuery if it does not yet exist.
              create_disposition=beam.io.BigQueryDisposition.CREATE_IF_NEEDED,
              # Deletes all data in the BigQuery table before writing.

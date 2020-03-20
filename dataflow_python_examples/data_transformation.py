@@ -39,7 +39,7 @@ class DataTransformation:
         self.schema_str = ''
         # Here we read the output schema from a json file.  This is used to specify the types
         # of data we are writing to BigQuery.
-        schema_file = os.path.join(dir_path, 'resources', 'usa_names_year_as_date.json')
+        schema_file = os.path.join(dir_path, 'resources', 'Please choose the schema')
         with open(schema_file) \
                 as f:
             data = f.read()
